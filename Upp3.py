@@ -1,7 +1,11 @@
 while True: 
     try:
         Hight = float(input("Hur Inte kortt är du i centimeter: "))
-        break
+        if Hight <= 0:
+            print("Bara gör rätt nu okej")
+            continue
+        else:
+            break
     except:
         print("Bara gör rätt nu okej")
         continue
@@ -9,7 +13,11 @@ while True:
 while True: 
     try:
         Weight = float(input("Hur mycket väger du i Kilogram: "))
-        break
+        if Weight <= 0:
+            print("Bara gör rätt nu okej")
+            continue
+        else:
+            break
     except:
         print("Bara gör rätt nu okej")
         continue
@@ -17,7 +25,11 @@ while True:
 while True: 
     try:
         r = int(input("radien på en cirkel: "))
-        break
+        if r <= 0:
+            print("Bara gör rätt nu okej")
+            continue
+        else:
+            break
     except:
         print("Bara gör rätt nu okej")
         continue
@@ -25,7 +37,11 @@ while True:
 while True: 
     try:
         AT = int(input("Antal tärningar: "))
-        break
+        if AT <= 0:
+            print("Bara gör rätt nu okej")
+            continue
+        else:
+            break
     except:
         print("Bara gör rätt nu okej")
         continue
