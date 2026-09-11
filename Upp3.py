@@ -40,6 +40,8 @@ print("BMI:", Weight/(Hight/100)**2)
 
 print("Cirkelns aria:", r**2*3.14)
 
+print("Tärningar:")
+
 import random
 
 for i in range(0, AT):
